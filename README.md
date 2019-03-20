@@ -1,2 +1,0 @@
-# slots
-Created with CodeSandbox

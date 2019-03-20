@@ -1,0 +1,52 @@
+body {
+  background-color: #aaa;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  border: 1px solid #888;
+  border-radius: 5px;
+  max-width: 800px;
+  background-color: white;
+  margin: 0 auto;
+}
+.vertical {
+  flex-direction: column;
+  display: flex;
+}
+.horizontal {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.slot {
+  background-color: #a5c2d1;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  margin: 2px 0;
+  padding: 5px;
+}
+.slot:hover {
+  background-color: #7ca0b2;
+}
+.mybutton {
+  padding: 5px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #08a54a;
+  border: 0px;
+  margin-right: 10px;
+  color: white;
+}
+.disabled {
+  background-color: #ad9e9e;
+}
+
+.weekData {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
